@@ -1,0 +1,575 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - banner:
+        - generic [ref=e4]:
+          - generic [ref=e5]:
+            - link "logo-white" [ref=e8] [cursor=pointer]:
+              - /url: https://bridgewater-interiors.com/
+              - img "logo-white" [ref=e10]
+            - generic [ref=e14]:
+              - navigation [ref=e16]:
+                - list [ref=e17]:
+                  - listitem [ref=e18]:
+                    - link "About" [ref=e19] [cursor=pointer]:
+                      - /url: https://bridgewater-interiors.com/about/
+                  - listitem [ref=e20]:
+                    - link "Job Opportunities" [ref=e21] [cursor=pointer]:
+                      - /url: https://bridgewater-interiors.com/hiring/
+                  - listitem [ref=e22]:
+                    - link "Contact" [ref=e23] [cursor=pointer]:
+                      - /url: https://bridgewater-interiors.com/contact/
+              - text: a
+            - generic [ref=e25] [cursor=pointer]:
+              - generic:
+                - paragraph
+          - generic [ref=e30]:
+            - paragraph [ref=e33] [cursor=pointer]: Home
+            - paragraph [ref=e36] [cursor=pointer]: About
+            - paragraph [ref=e39] [cursor=pointer]: Employee Spotlight
+            - paragraph [ref=e42] [cursor=pointer]: Careers
+            - paragraph [ref=e45] [cursor=pointer]: Community and Impact
+            - paragraph [ref=e48] [cursor=pointer]: Meet the Team
+            - paragraph [ref=e51] [cursor=pointer]: Awards and Recognitions
+            - paragraph [ref=e54] [cursor=pointer]: News
+            - paragraph [ref=e57] [cursor=pointer]: Contact
+      - generic [ref=e58]:
+        - generic [ref=e59]:
+          - article [ref=e60]:
+            - generic [ref=e61]:
+              - generic [ref=e62]:
+                - generic [ref=e63]:
+                  - heading "About Bridgewater Interiors" [level=1] [ref=e69]
+                  - generic [ref=e70]:
+                    - heading "Who We Are" [level=2] [ref=e75]
+                    - generic [ref=e76]:
+                      - generic [ref=e79]:
+                        - paragraph [ref=e80]: "Bridgewater Interiors was founded in 1998 as a joint venture between Epsilon Technologies, a Detroit based entrepreneurial partnership, and publicly traded Johnson Controls, Inc. (NYSE: JCI) to manufacture automotive seating systems for General Motors Corporation."
+                        - paragraph [ref=e81]: President and CEO Ronald E. Hall, Sr. was identified to lead the organization after a long and successful career in corporate management, entrepreneurship, and economic development, including a distinguished tenure heading the Michigan Minority Supplier Development Council.
+                      - generic [ref=e84]:
+                        - paragraph [ref=e85]: Bridgewater quickly established relevance in the automotive supplier space, as its initial five-year GM contract was the largest contract ever awarded to a racial minority-owned business by an automaker.
+                        - paragraph [ref=e86]: "Today, the company is a joint venture between Epsilon and publicly traded Adient plc (NYSE: ADNT) and has expanded from one Detroit location with 133 employees to four facilities in two U.S. states with 2,400 employees. Its customer list, meanwhile, has expanded from one automaker to four, including GM, Honda Manufacturing of America, Ford Motor Company, and Fiat Chrysler Automobiles – supporting 11 different vehicle models."
+                  - generic [ref=e91]:
+                    - generic [ref=e93]:
+                      - link [ref=e95] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/wp-content/uploads/2020/06/bridge-3.png
+                        - img [ref=e96]
+                      - link [ref=e98] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/wp-content/uploads/2020/06/40-1.png
+                        - img [ref=e99]
+                      - link "Annual town hall meetings - 1" [ref=e101] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/wp-content/uploads/2020/07/Annual-town-hall-meetings-1.jpg
+                        - img "Annual town hall meetings - 1" [ref=e102]
+                      - link [ref=e104] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/wp-content/uploads/2020/06/2-4.jpg
+                        - img [ref=e105]
+                      - link [ref=e107] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/wp-content/uploads/2020/06/4-3-scaled.jpg
+                        - img [ref=e108]
+                      - link [ref=e110] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/wp-content/uploads/2020/06/5-1.jpg
+                        - img [ref=e111]
+                      - link [ref=e113] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/wp-content/uploads/2020/06/8-rotated.jpeg
+                        - img [ref=e114]
+                      - link [ref=e116] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/wp-content/uploads/2020/06/6-1.jpg
+                        - img [ref=e117]
+                      - link [ref=e119] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/wp-content/uploads/2020/06/7-1.jpg
+                        - img [ref=e120]
+                      - link [ref=e122] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/wp-content/uploads/2020/06/9.jpeg
+                        - img [ref=e123]
+                      - link [ref=e125] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/wp-content/uploads/2020/06/10.jpeg
+                        - img [ref=e126]
+                      - link [ref=e128] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/wp-content/uploads/2020/06/13.jpg
+                        - img [ref=e129]
+                      - link [ref=e131] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/wp-content/uploads/2020/06/1-4-scaled.jpg
+                        - img [ref=e132]
+                      - link [ref=e134] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/wp-content/uploads/2020/06/14.png
+                        - img [ref=e135]
+                      - link [ref=e137] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/wp-content/uploads/2020/06/35.png
+                        - img [ref=e138]
+                      - link [ref=e140] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/wp-content/uploads/2020/06/11-scaled.jpg
+                        - img [ref=e141]
+                      - link [ref=e143] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/wp-content/uploads/2020/06/12-scaled.jpg
+                        - img [ref=e144]
+                      - link [ref=e146] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/wp-content/uploads/2020/06/27-scaled.jpg
+                        - img [ref=e147]
+                      - link [ref=e149] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/wp-content/uploads/2020/06/26-1.png
+                        - img [ref=e150]
+                      - link [ref=e152] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/wp-content/uploads/2020/06/29.png
+                        - img [ref=e153]
+                      - link [ref=e155] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/wp-content/uploads/2020/06/36-1-scaled.jpeg
+                        - img [ref=e156]
+                      - link [ref=e158] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/wp-content/uploads/2020/06/15-scaled.jpg
+                        - img [ref=e159]
+                      - link [ref=e161] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/wp-content/uploads/2020/06/Chris-Tyler.jpg
+                        - img [ref=e162]
+                      - link [ref=e164] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/wp-content/uploads/2020/06/23-scaled.jpg
+                        - img [ref=e165]
+                      - link [ref=e167] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/wp-content/uploads/2020/06/16.png
+                        - img [ref=e168]
+                      - link [ref=e170] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/wp-content/uploads/2020/06/17-scaled.jpg
+                        - img [ref=e171]
+                      - link [ref=e173] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/wp-content/uploads/2020/06/18.png
+                        - img [ref=e174]
+                      - link [ref=e176] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/wp-content/uploads/2020/06/19-scaled.jpg
+                        - img [ref=e177]
+                      - link [ref=e179] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/wp-content/uploads/2020/06/20.png
+                        - img [ref=e180]
+                      - link [ref=e182] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/wp-content/uploads/2020/06/21.png
+                        - img [ref=e183]
+                      - link [ref=e185] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/wp-content/uploads/2020/06/24.png
+                        - img [ref=e186]
+                      - link [ref=e188] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/wp-content/uploads/2020/06/25.jpg
+                        - img [ref=e189]
+                      - link [ref=e191] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/wp-content/uploads/2020/06/30.png
+                        - img [ref=e192]
+                      - link [ref=e194] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/wp-content/uploads/2020/06/31-scaled.jpg
+                        - img [ref=e195]
+                      - link [ref=e197] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/wp-content/uploads/2020/06/32-scaled.jpg
+                        - img [ref=e198]
+                      - link [ref=e200] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/wp-content/uploads/2020/06/33-scaled.jpg
+                        - img [ref=e201]
+                      - link [ref=e203] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/wp-content/uploads/2020/06/37-scaled.jpg
+                        - img [ref=e204]
+                      - link [ref=e206] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/wp-content/uploads/2020/06/38-scaled.jpg
+                        - img [ref=e207]
+                      - link "team - red" [ref=e209] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/wp-content/uploads/2020/06/team-red-1.png
+                        - img "team - red" [ref=e210]
+                      - link [ref=e212] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/wp-content/uploads/2020/06/0-1-2-3.jpg
+                        - img [ref=e213]
+                      - link [ref=e215] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/wp-content/uploads/2020/06/0-1-4-scaled.jpg
+                        - img [ref=e216]
+                      - link [ref=e218] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/wp-content/uploads/2020/06/0-2-2-copy.jpg
+                        - img [ref=e219]
+                      - link [ref=e221] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/wp-content/uploads/2020/06/0-3-2.jpg
+                        - img [ref=e222]
+                      - link [ref=e224] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/wp-content/uploads/2020/06/0-3-1-scaled.jpg
+                        - img [ref=e225]
+                      - link [ref=e227] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/wp-content/uploads/2020/06/0-4-1.jpg
+                        - img [ref=e228]
+                      - link [ref=e230] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/wp-content/uploads/2020/06/0-6-scaled.jpg
+                        - img [ref=e231]
+                      - link [ref=e233] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/wp-content/uploads/2020/06/deliver.jpg
+                        - img [ref=e234]
+                      - link "team" [ref=e236] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/wp-content/uploads/2020/06/team-5.png
+                        - img "team" [ref=e237]
+                      - link [ref=e239] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/wp-content/uploads/2020/06/0-5.jpg
+                        - img [ref=e240]
+                      - link [ref=e242] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/wp-content/uploads/2020/06/MG_5960-3-scaled.jpg
+                        - img [ref=e243]
+                      - link [ref=e245] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/wp-content/uploads/2020/06/DSC_0355-scaled.jpg
+                        - img [ref=e246]
+                      - link [ref=e248] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/wp-content/uploads/2020/06/bw-interiors.png
+                        - img [ref=e249]
+                      - link [ref=e251] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/wp-content/uploads/2020/06/MG_6359-scaled.jpg
+                        - img [ref=e252]
+                      - link [ref=e254] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/wp-content/uploads/2020/06/MG_6403-scaled.jpg
+                        - img [ref=e255]
+                      - link [ref=e257] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/wp-content/uploads/2020/06/1-6-scaled.jpg
+                        - img [ref=e258]
+                      - link [ref=e260] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/wp-content/uploads/2020/06/2-6-scaled.jpg
+                        - img [ref=e261]
+                      - link [ref=e263] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/wp-content/uploads/2020/06/3-5-scaled.jpg
+                        - img [ref=e264]
+                      - link [ref=e266] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/wp-content/uploads/2020/06/4-4-scaled.jpg
+                        - img [ref=e267]
+                      - link [ref=e269] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/wp-content/uploads/2020/06/5-3-scaled.jpg
+                        - img [ref=e270]
+                      - link [ref=e272] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/wp-content/uploads/2020/06/6-4-scaled.jpg
+                        - img [ref=e273]
+                      - link [ref=e275] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/wp-content/uploads/2020/06/14-scaled.jpg
+                        - img [ref=e276]
+                      - link [ref=e278] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/wp-content/uploads/2020/06/15-1-scaled.jpg
+                        - img [ref=e279]
+                      - link [ref=e281] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/wp-content/uploads/2020/06/7-3-scaled.jpg
+                        - img [ref=e282]
+                      - link [ref=e284] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/wp-content/uploads/2020/06/8-scaled.jpg
+                        - img [ref=e285]
+                      - link [ref=e287] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/wp-content/uploads/2020/06/9-scaled.jpg
+                        - img [ref=e288]
+                      - link [ref=e290] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/wp-content/uploads/2020/06/13-1-scaled.jpg
+                        - img [ref=e291]
+                      - link [ref=e293] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/wp-content/uploads/2020/06/11-1-scaled.jpg
+                        - img [ref=e294]
+                      - link [ref=e296] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/wp-content/uploads/2020/06/10-scaled.jpg
+                        - img [ref=e297]
+                      - link [ref=e299] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/wp-content/uploads/2020/06/17-1-scaled.jpg
+                        - img [ref=e300]
+                      - link [ref=e302] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/wp-content/uploads/2020/06/DSC_0510-2-scaled.jpg
+                        - img [ref=e303]
+                      - link [ref=e305] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/wp-content/uploads/2020/06/21-scaled.jpg
+                        - img [ref=e306]
+                      - link [ref=e308] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/wp-content/uploads/2020/06/19-1-scaled.jpg
+                        - img [ref=e309]
+                      - link [ref=e311] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/wp-content/uploads/2020/06/16-scaled.jpg
+                        - img [ref=e312]
+                      - link [ref=e314] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/wp-content/uploads/2020/06/20-scaled.jpg
+                        - img [ref=e315]
+                    - generic [ref=e316] [cursor=pointer]: "4"
+                    - generic [ref=e317] [cursor=pointer]: "5"
+                  - generic [ref=e318]:
+                    - heading "In Memoriam Of Our Founder Ron Hall Sr." [level=2] [ref=e323]
+                    - generic [ref=e324]:
+                      - generic [ref=e327]:
+                        - heading "“Ron Hall Sr. was a great partner to Johnson Controls and the automotive industry. He was a trusted friend and leader who had remarkable compassion for the communities his businesses served.”" [level=4] [ref=e328]
+                        - heading "Bruce McDonald, vice chairman of Johnson Controls" [level=6] [ref=e329]
+                      - img "Bridgewater Interiors Founder Ron Hall Sr." [ref=e333]
+                    - link "Learn more about our founder by clicking here $" [ref=e337] [cursor=pointer]:
+                      - /url: /in-memoriam-ronald-e-hall-sr
+                  - generic [ref=e338]:
+                    - heading "Vision" [level=2] [ref=e343]
+                    - paragraph [ref=e348]: Bridgewater provides customer-focused automotive interiors manufacturing services at industry-leading standards and performance levels that fulfill the ideals of Minority Business Enterprise leadership. The company heeds the responsibility of good corporate citizenship, dedicated community involvement and commitment to inclusion and diversity in its supplier base and employee ranks.
+                  - generic [ref=e349]:
+                    - generic [ref=e350]:
+                      - generic [ref=e351]:
+                        - heading "Our History" [level=2] [ref=e354]
+                        - paragraph [ref=e357]:
+                          - strong [ref=e358]: 1998-2003
+                          - text: ": Thirty years into the supplier diversity movement that it started in the automotive industry, General Motors contracts with newly formed Bridgewater Interiors to manufacture seating for one of its leading programs. Johnson Controls, which would proceed to preeminence in the supplier diversity space among Tier 1 automotive firms, commits to partnership in the joint venture. A new, state-of-the-art production facility is developed in southwest Detroit – the first such development in decades – and Bridgewater immediately becomes one of the largest minority-owned companies in the nation."
+                        - generic [ref=e359]:
+                          - generic [ref=e360]:
+                            - generic [ref=e361]:
+                              - generic [ref=e362]:
+                                - group "1 / 24" [ref=e363]:
+                                  - generic [ref=e364]:
+                                    - figure [ref=e365]
+                                    - generic [ref=e367]:
+                                      - heading "1998" [level=4] [ref=e368]
+                                      - generic [ref=e369]: JV formed with GM support
+                                - group "2 / 24" [ref=e370]:
+                                  - generic [ref=e371]:
+                                    - figure [ref=e372]
+                                    - generic [ref=e374]:
+                                      - heading "1999" [level=4] [ref=e375]
+                                      - generic [ref=e376]: Detroit SOP, Cadillac DTS
+                                - group "3 / 24" [ref=e377]:
+                                  - generic [ref=e378]:
+                                    - figure [ref=e379]
+                                    - generic [ref=e381]:
+                                      - heading "2004" [level=4] [ref=e382]
+                                      - paragraph [ref=e384]:
+                                        - strong [ref=e385]: Warren, MI
+                                        - text: start of production
+                                - group "4 / 24" [ref=e386]:
+                                  - generic [ref=e387]:
+                                    - figure [ref=e388]
+                                    - generic [ref=e390]:
+                                      - heading "2004" [level=4] [ref=e391]
+                                      - paragraph [ref=e393]:
+                                        - strong [ref=e394]: Eastaboga, AL
+                                        - text: start of production
+                                - group "5 / 24" [ref=e395]:
+                                  - generic [ref=e396]:
+                                    - figure [ref=e397]
+                                    - generic [ref=e399]:
+                                      - heading "2004" [level=4] [ref=e400]
+                                      - paragraph [ref=e402]:
+                                        - strong [ref=e403]: Number of full-time employees exceeds 1,000
+                                      - strong
+                                    - strong
+                                  - strong
+                                - group "6 / 24" [ref=e404]:
+                                  - strong [ref=e405]:
+                                    - generic [ref=e406]:
+                                      - figure [ref=e407]
+                                      - generic [ref=e409]:
+                                        - heading "2004" [level=4] [ref=e410]
+                                        - paragraph [ref=e412]:
+                                          - strong [ref=e413]: Warren SOP,
+                                          - text: Ford Expedition / Lincoln Navigator
+                                - group "7 / 24" [ref=e414]:
+                                  - strong [ref=e415]:
+                                    - generic [ref=e416]:
+                                      - figure [ref=e417]
+                                      - generic [ref=e419]:
+                                        - heading "2004" [level=4] [ref=e420]
+                                        - paragraph [ref=e422]:
+                                          - strong [ref=e423]: Eastaboga SOP,
+                                          - text: Honda Pilot
+                                - group "8 / 24" [ref=e424]:
+                                  - strong [ref=e425]:
+                                    - generic [ref=e426]:
+                                      - figure [ref=e427]
+                                      - generic [ref=e429]:
+                                        - heading "2005" [level=4] [ref=e430]
+                                        - paragraph [ref=e432]:
+                                          - strong [ref=e433]: Lansing, MI
+                                          - text: start of production
+                                - group "9 / 24" [ref=e434]:
+                                  - strong [ref=e435]:
+                                    - generic [ref=e436]:
+                                      - figure [ref=e437]
+                                      - generic [ref=e439]:
+                                        - heading "2005" [level=4] [ref=e440]
+                                        - paragraph [ref=e442]:
+                                          - strong [ref=e443]: Lansing SOP,
+                                          - text: GM Lambda
+                                - group "10 / 24" [ref=e444]:
+                                  - strong [ref=e445]:
+                                    - generic [ref=e446]:
+                                      - figure [ref=e447]
+                                      - generic [ref=e449]:
+                                        - heading "2007" [level=4] [ref=e450]
+                                        - paragraph [ref=e452]: Ford F-150 to Warren
+                                - group "11 / 24" [ref=e453]:
+                                  - strong [ref=e454]:
+                                    - generic [ref=e455]:
+                                      - figure [ref=e456]
+                                      - generic [ref=e458]:
+                                        - heading "2009" [level=4] [ref=e459]
+                                        - paragraph [ref=e461]: Annual revenues exceed $1 billion
+                                - group "12 / 24" [ref=e462]:
+                                  - strong [ref=e463]:
+                                    - generic [ref=e464]:
+                                      - figure [ref=e465]
+                                      - generic [ref=e467]:
+                                        - heading "2010" [level=4] [ref=e468]
+                                        - paragraph [ref=e470]: Dodge RAM to Warren
+                                - group "13 / 24" [ref=e471]:
+                                  - strong [ref=e472]:
+                                    - generic [ref=e473]:
+                                      - figure [ref=e474]
+                                      - generic [ref=e476]:
+                                        - heading "2011" [level=4] [ref=e477]
+                                        - paragraph [ref=e479]: Number of full-time employees exceeds 2,000
+                                - group "14 / 24" [ref=e480]:
+                                  - strong [ref=e481]:
+                                    - generic [ref=e482]:
+                                      - figure [ref=e483]
+                                      - generic [ref=e485]:
+                                        - heading "2011" [level=4] [ref=e486]
+                                        - paragraph [ref=e488]: Detroit building and business expansion
+                                - group "15 / 24" [ref=e489]:
+                                  - strong [ref=e490]:
+                                    - generic [ref=e491]:
+                                      - figure [ref=e492]
+                                      - generic [ref=e494]:
+                                        - heading "2011" [level=4] [ref=e495]
+                                        - paragraph [ref=e497]: Ford Focus to Detroit
+                                - group "16 / 24" [ref=e498]:
+                                  - strong [ref=e499]:
+                                    - generic [ref=e500]:
+                                      - figure [ref=e501]
+                                      - generic [ref=e503]:
+                                        - heading "2012" [level=4] [ref=e504]
+                                        - paragraph [ref=e506]: Eastaboga building and business expansion
+                                - group "17 / 24" [ref=e507]:
+                                  - strong [ref=e508]:
+                                    - generic [ref=e509]:
+                                      - figure [ref=e510]
+                                      - generic [ref=e512]:
+                                        - heading "2012" [level=4] [ref=e513]
+                                        - paragraph [ref=e515]: Acura MDX
+                                - group "18 / 24" [ref=e516]:
+                                  - strong [ref=e517]:
+                                    - generic [ref=e518]:
+                                      - figure [ref=e519]
+                                      - generic [ref=e521]:
+                                        - heading "2013" [level=4] [ref=e522]
+                                        - paragraph [ref=e524]: Lansing building and business expansion
+                                - group "19 / 24" [ref=e525]:
+                                  - strong [ref=e526]:
+                                    - generic [ref=e527]:
+                                      - figure [ref=e528]
+                                      - generic [ref=e530]:
+                                        - heading "2013" [level=4] [ref=e531]
+                                        - paragraph [ref=e533]: GM Alpha (Cadillac ATS/CTS)
+                                - group "20 / 24" [ref=e534]:
+                                  - strong [ref=e535]:
+                                    - generic [ref=e536]:
+                                      - figure [ref=e537]
+                                      - generic [ref=e539]:
+                                        - heading "2015" [level=4] [ref=e540]
+                                        - paragraph [ref=e542]: Annual revenues exceed $2 billion
+                                - group "21 / 24" [ref=e543]:
+                                  - strong [ref=e544]:
+                                    - generic [ref=e545]:
+                                      - figure [ref=e546]
+                                      - generic [ref=e548]:
+                                        - heading "2015" [level=4] [ref=e549]
+                                        - paragraph [ref=e551]: Cheverolet Camaro to Lansing
+                                - group "22 / 24" [ref=e552]:
+                                  - strong [ref=e553]:
+                                    - generic [ref=e554]:
+                                      - figure [ref=e555]
+                                      - generic [ref=e557]:
+                                        - heading "2016" [level=4] [ref=e558]
+                                        - paragraph [ref=e560]: Buick Lacrosse to Detroit
+                                - group "23 / 24" [ref=e561]:
+                                  - strong [ref=e562]:
+                                    - generic [ref=e563]:
+                                      - figure [ref=e564]
+                                      - generic [ref=e566]:
+                                        - heading "2019" [level=4] [ref=e567]
+                                        - paragraph [ref=e569]: 20th Year Anniversary in Operations
+                                - group "24 / 24" [ref=e570]:
+                                  - strong [ref=e571]:
+                                    - generic [ref=e572]:
+                                      - figure [ref=e573]
+                                      - generic [ref=e575]:
+                                        - heading "2020" [level=4] [ref=e576]
+                                        - paragraph [ref=e578]: Bridgewater produces its 1,376,161st seat for GM
+                              - strong
+                            - button "Previous slide" [disabled] [ref=e579] [cursor=pointer]: "4"
+                            - button "Next slide" [ref=e580] [cursor=pointer]: "5"
+                            - strong
+                          - strong
+                        - strong
+                      - strong
+                    - generic [ref=e581]:
+                      - strong:
+                        - generic [ref=e584]:
+                          - heading "Awards & Recognition" [level=2] [ref=e585]
+                          - paragraph [ref=e586]: At Bridgewater, we are committed to supporting the communities in which we operate. Manufacturing excellence is how we do it, and that begins with hiring and developing an exceptional team dedicated to our vision. We take pride in creating productive and nurturing environments that provide jobs and career opportunities to people of diverse backgrounds.
+                          - paragraph [ref=e587]:
+                            - link "Learn More" [ref=e588] [cursor=pointer]:
+                              - /url: /awards-recognition/
+                          - paragraph
+                    - strong
+                  - strong
+                - strong
+              - strong
+            - strong
+          - strong
+        - strong [ref=e589]:
+          - contentinfo [ref=e590]:
+            - generic [ref=e591]:
+              - generic [ref=e597]:
+                - navigation [ref=e599]:
+                  - list [ref=e600]:
+                    - listitem [ref=e601]:
+                      - link "Home" [ref=e602] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/
+                    - listitem [ref=e603]:
+                      - link "About" [ref=e604] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/about/
+                    - listitem [ref=e605]:
+                      - link "Careers" [ref=e606] [cursor=pointer]:
+                        - /url: https://adient.wd3.myworkdayjobs.com/External/1/refreshFacet/318c8bb6f553100021d223d9780d30be
+                    - listitem [ref=e607]:
+                      - link "Job Opportunities" [ref=e608] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/hiring/
+                    - listitem [ref=e609]:
+                      - link "Community And Impact" [ref=e610] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/taking-care-of-community/
+                    - listitem [ref=e611]:
+                      - link "Meet The Team" [ref=e612] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/our-team/
+                    - listitem [ref=e613]:
+                      - link "Awards & Recognitions" [ref=e614] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/awards-recognition/
+                    - listitem [ref=e615]:
+                      - link "News" [ref=e616] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/news/
+                    - listitem [ref=e617]:
+                      - link "Resources" [ref=e618] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/category/resources/
+                    - listitem [ref=e619]:
+                      - link "Locations and Contact" [ref=e620] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/contact/
+                - text: a
+              - generic [ref=e621]:
+                - generic [ref=e622]:
+                  - paragraph [ref=e626]: FOLLOW US TO STAY CONNECTED WITH BWI
+                  - list [ref=e628]:
+                    - listitem [ref=e629]:
+                      - link "" [ref=e630] [cursor=pointer]:
+                        - /url: https://www.facebook.com/BridgewaterInteriors98/
+                    - listitem [ref=e631]:
+                      - link "" [ref=e632] [cursor=pointer]:
+                        - /url: https://www.instagram.com/bridgewaterint/
+                    - listitem [ref=e633]:
+                      - link "" [ref=e634] [cursor=pointer]:
+                        - /url: https://x.com/BridgewaterInt
+                    - listitem [ref=e635]:
+                      - link "" [ref=e636] [cursor=pointer]:
+                        - /url: https://www.youtube.com/channel/UCNX50eurEp_kWqxMgI-jNzw?view_as=subscriber
+                    - listitem [ref=e637]:
+                      - link "" [ref=e638] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/company/bridgewater-interiors-l.l.c.
+                    - listitem [ref=e639]:
+                      - link "" [ref=e640] [cursor=pointer]:
+                        - /url: https://www.threads.net/@bridgewaterint
+                - generic [ref=e641]:
+                  - link "logo-blue" [ref=e644] [cursor=pointer]:
+                    - /url: https://bridgewater-interiors.com/
+                    - img "logo-blue" [ref=e646]
+                  - paragraph [ref=e650]:
+                    - text: © 2025 Bridgewater Interiors LLC.
+                    - text: All rights reserved.
+                    - link "Privacy Policy" [ref=e651] [cursor=pointer]:
+                      - /url: "#"
+                    - text: Website Developed by
+                    - link "RIZZARR" [ref=e652] [cursor=pointer]:
+                      - /url: https://rizzarr.com/
+      - strong
+    - strong
+  - strong: "2"

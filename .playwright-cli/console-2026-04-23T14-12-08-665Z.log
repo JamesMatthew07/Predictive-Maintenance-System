@@ -1,0 +1,15 @@
+[    1108ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ https://bridgewater-interiors.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1:1
+[    3034ms] [WARNING] jQuery.Deferred exception: o.magnificPopup is not a function TypeError: o.magnificPopup is not a function
+    at HTMLDivElement.<anonymous> (https://bridgewater-interiors.com/wp-content/plugins/supreme-modules-pro-for-divi/includes/modules/ImageCarousel/frontend.min.js?ver=4.2.9:1:890)
+    at ce.each (https://bridgewater-interiors.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:2:3129)
+    at e.<computed>.each (https://bridgewater-interiors.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:2:1594)
+    at HTMLDocument.<anonymous> (https://bridgewater-interiors.com/wp-content/plugins/supreme-modules-pro-for-divi/includes/modules/ImageCarousel/frontend.min.js?ver=4.2.9:1:119)
+    at e (https://bridgewater-interiors.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:2:27028)
+    at t (https://bridgewater-interiors.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:2:27330) undefined @ https://bridgewater-interiors.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:1
+[    3074ms] TypeError: o.magnificPopup is not a function
+    at HTMLDivElement.<anonymous> (https://bridgewater-interiors.com/wp-content/plugins/supreme-modules-pro-for-divi/includes/modules/ImageCarousel/frontend.min.js?ver=4.2.9:1:890)
+    at ce.each (https://bridgewater-interiors.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:2:3129)
+    at e.<computed>.each (https://bridgewater-interiors.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:2:1594)
+    at HTMLDocument.<anonymous> (https://bridgewater-interiors.com/wp-content/plugins/supreme-modules-pro-for-divi/includes/modules/ImageCarousel/frontend.min.js?ver=4.2.9:1:119)
+    at e (https://bridgewater-interiors.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:2:27028)
+    at t (https://bridgewater-interiors.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:2:27330)

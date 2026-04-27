@@ -1,0 +1,177 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - banner:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - link "logo-white" [ref=e8] [cursor=pointer]:
+            - /url: https://bridgewater-interiors.com/
+            - img "logo-white" [ref=e10]
+          - generic [ref=e14]:
+            - navigation [ref=e16]:
+              - list [ref=e17]:
+                - listitem [ref=e18]:
+                  - link "About" [ref=e19] [cursor=pointer]:
+                    - /url: https://bridgewater-interiors.com/about/
+                - listitem [ref=e20]:
+                  - link "Job Opportunities" [ref=e21] [cursor=pointer]:
+                    - /url: https://bridgewater-interiors.com/hiring/
+                - listitem [ref=e22]:
+                  - link "Contact" [ref=e23] [cursor=pointer]:
+                    - /url: https://bridgewater-interiors.com/contact/
+            - text: a
+          - generic [ref=e25] [cursor=pointer]:
+            - generic:
+              - paragraph
+        - generic [ref=e30]:
+          - paragraph [ref=e33] [cursor=pointer]: Home
+          - paragraph [ref=e36] [cursor=pointer]: About
+          - paragraph [ref=e39] [cursor=pointer]: Employee Spotlight
+          - paragraph [ref=e42] [cursor=pointer]: Careers
+          - paragraph [ref=e45] [cursor=pointer]: Community and Impact
+          - paragraph [ref=e48] [cursor=pointer]: Meet the Team
+          - paragraph [ref=e51] [cursor=pointer]: Awards and Recognitions
+          - paragraph [ref=e54] [cursor=pointer]: News
+          - paragraph [ref=e57] [cursor=pointer]: Contact
+    - generic [ref=e58]:
+      - article [ref=e60]:
+        - generic [ref=e63]:
+          - heading "Contact Us" [level=1] [ref=e69]
+          - generic [ref=e70]:
+            - generic [ref=e72]:
+              - paragraph [ref=e75]: To connect with our team, please fill out the form below and one of our divisions will connect back with you. Thank you for contacting us.
+              - generic [ref=e78]:
+                - paragraph [ref=e79]:
+                  - textbox "Name" [ref=e80]
+                - paragraph [ref=e81]:
+                  - textbox "Email Address" [ref=e82]
+                - paragraph [ref=e83]:
+                  - combobox "Division" [ref=e84]:
+                    - option "Division" [selected]
+                    - option "Business Partnership"
+                    - option "Community Involvements"
+                    - option "General Inquiry"
+                    - option "Media / Press"
+                - paragraph [ref=e85]:
+                  - textbox "Message" [ref=e86]
+                - generic [ref=e87]:
+                  - paragraph [ref=e89]:
+                    - text: 9 + 12 =
+                    - textbox [ref=e90]
+                  - button "Submit 5" [ref=e91] [cursor=pointer]
+              - generic [ref=e94]:
+                - generic [ref=e97]: 
+                - paragraph [ref=e100]: bridgewaterinteriors1998@gmail.com
+              - heading "Locations" [level=2] [ref=e104]
+            - generic [ref=e105]:
+              - generic [ref=e108]:
+                - figure
+                - generic [ref=e109]:
+                  - heading "Headquarters — Detroit, Michigan" [level=4] [ref=e110]
+                  - generic [ref=e111]: 4617 W Fort St., Detroit, MI 48209-3208
+                  - generic [ref=e112]:
+                    - paragraph [ref=e113]: "Phone: (313) 842-3300"
+                    - heading [level=5] [ref=e114]
+                    - heading "Vehicles Supported:" [level=5] [ref=e115]
+                    - heading "ram classic" [level=5] [ref=e116]
+              - generic [ref=e119]:
+                - figure
+                - generic [ref=e120]:
+                  - heading "Warren, Michigan" [level=4] [ref=e121]
+                  - generic [ref=e122]: 7500 Tank Avenue, Warren, MI 48092-2707
+                  - generic [ref=e123]:
+                    - paragraph [ref=e124]: "Phone: (586) 753-3000"
+                    - heading [level=5] [ref=e125]
+                    - heading "Vehicles Supported:" [level=5] [ref=e126]
+                    - heading "Ford F-150 | RAM 1500" [level=5] [ref=e127]
+            - generic [ref=e128]:
+              - generic [ref=e131]:
+                - figure
+                - generic [ref=e132]:
+                  - heading "Eastaboga, Alabama" [level=4] [ref=e133]
+                  - generic [ref=e134]: 1 Bridgewater Dr., Eastaboga AL 36260
+                  - generic [ref=e135]:
+                    - paragraph [ref=e136]: "Phone: (256) 240-7900"
+                    - heading [level=5] [ref=e137]
+                    - heading "Vehicles Supported:" [level=5] [ref=e138]
+                    - heading "HONDA PILOT | honda passport" [level=5] [ref=e139]
+              - generic [ref=e142]:
+                - figure
+                - generic [ref=e143]:
+                  - heading "Lansing, Michigan" [level=4] [ref=e144]
+                  - generic [ref=e145]: 2369 S Canal Rd., Lansing, MI 48917-8589
+                  - generic [ref=e146]:
+                    - paragraph [ref=e147]: "Phone: (517) 322-4800"
+                    - heading [level=5] [ref=e148]
+                    - heading "Vehicles Supported:" [level=5] [ref=e149]
+                    - heading "BUICK ENCLAVE | CADILLAC CT4 | CADILLAC CT5 | CHEVY CAMARO" [level=5] [ref=e150]
+      - contentinfo [ref=e151]:
+        - generic [ref=e152]:
+          - generic [ref=e158]:
+            - navigation [ref=e160]:
+              - list [ref=e161]:
+                - listitem [ref=e162]:
+                  - link "Home" [ref=e163] [cursor=pointer]:
+                    - /url: https://bridgewater-interiors.com/
+                - listitem [ref=e164]:
+                  - link "About" [ref=e165] [cursor=pointer]:
+                    - /url: https://bridgewater-interiors.com/about/
+                - listitem [ref=e166]:
+                  - link "Careers" [ref=e167] [cursor=pointer]:
+                    - /url: https://adient.wd3.myworkdayjobs.com/External/1/refreshFacet/318c8bb6f553100021d223d9780d30be
+                - listitem [ref=e168]:
+                  - link "Job Opportunities" [ref=e169] [cursor=pointer]:
+                    - /url: https://bridgewater-interiors.com/hiring/
+                - listitem [ref=e170]:
+                  - link "Community And Impact" [ref=e171] [cursor=pointer]:
+                    - /url: https://bridgewater-interiors.com/taking-care-of-community/
+                - listitem [ref=e172]:
+                  - link "Meet The Team" [ref=e173] [cursor=pointer]:
+                    - /url: https://bridgewater-interiors.com/our-team/
+                - listitem [ref=e174]:
+                  - link "Awards & Recognitions" [ref=e175] [cursor=pointer]:
+                    - /url: https://bridgewater-interiors.com/awards-recognition/
+                - listitem [ref=e176]:
+                  - link "News" [ref=e177] [cursor=pointer]:
+                    - /url: https://bridgewater-interiors.com/news/
+                - listitem [ref=e178]:
+                  - link "Resources" [ref=e179] [cursor=pointer]:
+                    - /url: https://bridgewater-interiors.com/category/resources/
+                - listitem [ref=e180]:
+                  - link "Locations and Contact" [ref=e181] [cursor=pointer]:
+                    - /url: https://bridgewater-interiors.com/contact/
+            - text: a
+          - generic [ref=e182]:
+            - generic [ref=e183]:
+              - paragraph [ref=e187]: FOLLOW US TO STAY CONNECTED WITH BWI
+              - list [ref=e189]:
+                - listitem [ref=e190]:
+                  - link "" [ref=e191] [cursor=pointer]:
+                    - /url: https://www.facebook.com/BridgewaterInteriors98/
+                - listitem [ref=e192]:
+                  - link "" [ref=e193] [cursor=pointer]:
+                    - /url: https://www.instagram.com/bridgewaterint/
+                - listitem [ref=e194]:
+                  - link "" [ref=e195] [cursor=pointer]:
+                    - /url: https://x.com/BridgewaterInt
+                - listitem [ref=e196]:
+                  - link "" [ref=e197] [cursor=pointer]:
+                    - /url: https://www.youtube.com/channel/UCNX50eurEp_kWqxMgI-jNzw?view_as=subscriber
+                - listitem [ref=e198]:
+                  - link "" [ref=e199] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/company/bridgewater-interiors-l.l.c.
+                - listitem [ref=e200]:
+                  - link "" [ref=e201] [cursor=pointer]:
+                    - /url: https://www.threads.net/@bridgewaterint
+            - generic [ref=e202]:
+              - link "logo-blue" [ref=e205] [cursor=pointer]:
+                - /url: https://bridgewater-interiors.com/
+                - img "logo-blue" [ref=e207]
+              - paragraph [ref=e211]:
+                - text: © 2025 Bridgewater Interiors LLC.
+                - text: All rights reserved.
+                - link "Privacy Policy" [ref=e212] [cursor=pointer]:
+                  - /url: "#"
+                - text: Website Developed by
+                - link "RIZZARR" [ref=e213] [cursor=pointer]:
+                  - /url: https://rizzarr.com/
+  - text: "2"

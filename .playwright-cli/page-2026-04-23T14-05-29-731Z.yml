@@ -1,0 +1,296 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - banner:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - link "logo-white" [ref=e8] [cursor=pointer]:
+            - /url: https://bridgewater-interiors.com/
+            - img "logo-white" [ref=e10]
+          - generic [ref=e14]:
+            - navigation [ref=e16]:
+              - list [ref=e17]:
+                - listitem [ref=e18]:
+                  - link "About" [ref=e19] [cursor=pointer]:
+                    - /url: https://bridgewater-interiors.com/about/
+                - listitem [ref=e20]:
+                  - link "Job Opportunities" [ref=e21] [cursor=pointer]:
+                    - /url: https://bridgewater-interiors.com/hiring/
+                - listitem [ref=e22]:
+                  - link "Contact" [ref=e23] [cursor=pointer]:
+                    - /url: https://bridgewater-interiors.com/contact/
+            - text: a
+          - generic [ref=e25] [cursor=pointer]:
+            - generic:
+              - paragraph
+        - generic [ref=e30]:
+          - paragraph [ref=e33] [cursor=pointer]: Home
+          - paragraph [ref=e36] [cursor=pointer]: About
+          - paragraph [ref=e39] [cursor=pointer]: Employee Spotlight
+          - paragraph [ref=e42] [cursor=pointer]: Careers
+          - paragraph [ref=e45] [cursor=pointer]: Community and Impact
+          - paragraph [ref=e48] [cursor=pointer]: Meet the Team
+          - paragraph [ref=e51] [cursor=pointer]: Awards and Recognitions
+          - paragraph [ref=e54] [cursor=pointer]: News
+          - paragraph [ref=e57] [cursor=pointer]: Contact
+    - generic [ref=e58]:
+      - article [ref=e60]:
+        - generic [ref=e63]:
+          - generic [ref=e65]:
+            - generic [ref=e67]:
+              - link "Learn About BWI" [ref=e74] [cursor=pointer]:
+                - /url: https://bridgewater-interiors.com/about/
+              - generic:
+                - generic: Video Player
+                - application "Video Player"
+            - generic:
+              - link "4" [ref=e75] [cursor=pointer]:
+                - /url: "#"
+              - link "5" [ref=e76] [cursor=pointer]:
+                - /url: "#"
+            - generic [ref=e77]:
+              - link "1" [ref=e78] [cursor=pointer]:
+                - /url: "#"
+              - link "2" [ref=e79] [cursor=pointer]:
+                - /url: "#"
+              - link "3" [ref=e80] [cursor=pointer]:
+                - /url: "#"
+              - link "4" [ref=e81] [cursor=pointer]:
+                - /url: "#"
+          - text: 4 5
+          - generic [ref=e86]:
+            - strong [ref=e87]: Bridgewater Interiors
+            - text: is one of the leading automotive seating manufacturing companies in the United States. We specialize in just-in-time (JIT) manufacturing, sequencing, and delivery of seating, overhead and center console systems. Since 1998, our highly skilled and diverse workforce has supplied automotive manufacturers with some of the highest quality products in the industry.
+          - generic [ref=e92]:
+            - heading "Our Numbers Speak for Themselves" [level=2] [ref=e97]
+            - generic [ref=e98]:
+              - generic [ref=e102]:
+                - generic [ref=e103]:
+                  - paragraph
+                - heading "Years in business" [level=5] [ref=e104]
+              - generic [ref=e108]:
+                - generic [ref=e109]:
+                  - paragraph
+                - heading "Seats assembled every minute" [level=5] [ref=e110]
+              - generic [ref=e114]:
+                - generic [ref=e115]:
+                  - paragraph
+                - heading "Team members strong" [level=5] [ref=e116]
+            - generic [ref=e117]:
+              - generic [ref=e121]:
+                - generic [ref=e122]:
+                  - paragraph
+                - heading "Locations in the USA" [level=5] [ref=e123]
+              - generic [ref=e127]:
+                - generic [ref=e128]:
+                  - paragraph
+                - heading "Car models" [level=5] [ref=e129]
+          - generic [ref=e131]:
+            - img "More-Than-Seats-noBG" [ref=e135]
+            - generic [ref=e138]:
+              - heading "Our Team Has Been Manufacturing Excellence For Over 20 Years" [level=1] [ref=e139]
+              - paragraph [ref=e140]: At Bridgewater Interiors, we’re providing customer-focused automotive interiors manufacturing services at industry-leading standards that fulfill the ideals of Minority Business Enterprise leadership and heed the responsibility of good corporate citizenship.
+          - link "I" [ref=e149] [cursor=pointer]:
+            - /url: "#"
+          - generic [ref=e152]:
+            - generic [ref=e154]:
+              - generic [ref=e156]:
+                - group "1 / 12" [ref=e157]:
+                  - generic [ref=e158]:
+                    - figure [ref=e159]
+                    - generic [ref=e160]:
+                      - heading "A Growing Minority Enterprise" [level=4] [ref=e161]
+                      - paragraph [ref=e163]: Bridgewater Interiors has significantly grown since its initial GM agreement. It has expanded from one Detroit location with 133 employees to four facilities producing automotive interior components for GM, Honda, Ford, and Chrysler.
+                      - link "Read About Our Values 5" [ref=e165] [cursor=pointer]:
+                        - /url: /our-team
+                - group "2 / 12" [ref=e166]:
+                  - generic [ref=e167]:
+                    - figure [ref=e168]
+                    - generic [ref=e169]:
+                      - 'heading "An Evening of Purpose: Investing in the Next Generation of Leaders" [level=4] [ref=e170]'
+                      - paragraph [ref=e172]: Members of our leadership team at Bridgewater Interiors joined industry leaders at the 2026 Winning Futures Corks & Forks event for an evening centered on purpose, connection, and impact – expanding meaningful opportunities for the next generation.
+                      - link "Read More & See Photos 5" [ref=e174] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/an-evening-of-purpose-investing-in-the-next-generation-of-leaders/
+                - group "3 / 12" [ref=e175]:
+                  - generic [ref=e176]:
+                    - figure [ref=e177]
+                    - generic [ref=e178]:
+                      - heading "Bridgewater Interiors Recognized For Powering Michigan’s Workforce Forward And Creating Opportunity" [level=4] [ref=e179]
+                      - paragraph [ref=e181]: Bridgewater Interiors was honored at the 2026 Impact Awards for opening doors to new opportunities and helping build stronger career pathways across Michigan’s capital region!
+                      - link "Read More & See Photos 5" [ref=e183] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/an-evening-of-purpose-investing-in-the-next-generation-of-leaders/
+                - group "4 / 12" [ref=e184]:
+                  - generic [ref=e185]:
+                    - figure [ref=e186]
+                    - generic [ref=e187]:
+                      - heading "Tigers Spirit Took Over Bridgewater Ahead of Opening Day! ⚾🐅🔥" [level=4] [ref=e188]
+                      - paragraph [ref=e190]: Our team didn’t wait for Opening Day to celebrate. Decked out in Tigers gear and full of Detroit pride, Bridgewater came together early to kick off the season with energy, tradition, and team spirit!
+                      - link "Read More & See Photos 5" [ref=e192] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/tigers-spirit-took-over-bridgewater-ahead-of-opening-day/
+                - group "5 / 12" [ref=e193]:
+                  - generic [ref=e194]:
+                    - figure [ref=e195]
+                    - generic [ref=e196]:
+                      - heading "Rosie The Riveter Lives On! Celebrating Women In Manufacturing At Bridgewater Interiors" [level=4] [ref=e197]
+                      - paragraph [ref=e199]: During Women’s History Month, Bridgewater Interiors proudly partnered with Women in Manufacturing Michigan and our joint venture partner, Adient, to host a Rosie the Riveter inspired event at our Lansing plant!
+                      - link "Read More & See Photos 5" [ref=e201] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/rosie-the-riveter-lives-on-celebrating-women-in-manufacturing-at-bridgewater-interiors/
+                - group "6 / 12" [ref=e202]:
+                  - generic [ref=e203]:
+                    - figure [ref=e204]
+                    - generic [ref=e205]:
+                      - heading "Bridgewater Interiors President & CEO Ronald E. Hall Named To Crain’s Detroit Business “Who’s Who in Business” List" [level=4] [ref=e206]
+                      - paragraph [ref=e208]: Our team is proud to celebrate our President and CEO, Ronald E. Hall, for being named to the Crain’s Detroit Business Who’s Who in Business list — an honor recognizing the most influential leaders shaping Southeast Michigan!
+                      - link "Read More 5" [ref=e210] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/bridgewater-interiors-president-ceo-ronald-e-hall-named-to-crains-detroit-business-whos-who-in-business-list/
+                - group "7 / 12" [ref=e211]:
+                  - generic [ref=e212]:
+                    - figure [ref=e213]
+                    - generic [ref=e214]:
+                      - 'heading "Driving Excellence: Bridgewater Interiors Wins Ford’s 2025 Diverse Supplier Of The Year!" [level=4] [ref=e215]'
+                      - paragraph [ref=e217]: "Congratulations to our entire Bridgewater Interiors team for winning the 2025 Ford Supplier of the Year Award in the Category: Diverse Supplier of the Year! Bridgewater was honored as one of only 30 suppliers to receive this award from Ford Motor Company."
+                      - link "Read More 5" [ref=e219] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/driving-excellence-bridgewater-interiors-wins-fords-2025-diverse-supplier-of-the-year/
+                - group "8 / 12" [ref=e220]:
+                  - generic [ref=e221]:
+                    - figure [ref=e222]
+                    - generic [ref=e223]:
+                      - heading "Automotive News Recognizes Bridgewater Interiors As “Top Supplier” In North America" [level=4] [ref=e224]
+                      - paragraph [ref=e226]:
+                        - text: "We have some great news to share:"
+                        - emphasis [ref=e227]: Automotive News
+                        - text: released its top suppliers list in their most recent issue, and Bridgewater Interiors was recognized in the list!
+                      - link "Read More 5" [ref=e229] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/automotive-news-recognizes-bridgewater-interiors-as-top-supplier-in-north-america/
+                - group "9 / 12" [ref=e230]:
+                  - generic [ref=e231]:
+                    - figure [ref=e232]
+                    - generic [ref=e233]:
+                      - 'heading "We’re About #MoreThanSeats. We’re About Community." [level=4] [ref=e234]'
+                      - paragraph [ref=e236]: "We aspire to have a legacy in which we deliver #MoreThanSeats. We’re committed to advancing the conversation on the importance of a diverse workforce. Additionally, we’re committed to partnering with organizations that improve the lives of those in need."
+                      - link "Read About Our Impact 5" [ref=e238] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/taking-care-of-community/
+                - group "10 / 12" [ref=e239]:
+                  - generic [ref=e240]:
+                    - figure [ref=e241]
+                    - generic [ref=e242]:
+                      - heading "We Deliver Just In Time. Every Time." [level=4] [ref=e243]
+                      - paragraph [ref=e245]: Bridgewater Interiors was founded in 1998 as a joint venture with Johnson Controls (JCI) to manufacture seats for General Motors. Currently, we assemble systems across 15 distinct car models for four automotive manufacturers at our three facilities in Michigan and one in Alabama.
+                      - link "Read About Our History 5" [ref=e247] [cursor=pointer]:
+                        - /url: /about
+                - group "11 / 12" [ref=e248]:
+                  - generic [ref=e249]:
+                    - figure [ref=e250]
+                    - generic [ref=e251]:
+                      - heading "A Growing Minority Enterprise" [level=4] [ref=e252]
+                      - paragraph [ref=e254]: Bridgewater Interiors has significantly grown since its initial GM agreement. It has expanded from one Detroit location with 133 employees to four facilities producing automotive interior components for GM, Honda, Ford, and Chrysler.
+                      - link "Read About Our Values 5" [ref=e256] [cursor=pointer]:
+                        - /url: /our-team
+                - group "12 / 12" [ref=e257]:
+                  - generic [ref=e258]:
+                    - figure [ref=e259]
+                    - generic [ref=e260]:
+                      - 'heading "An Evening of Purpose: Investing in the Next Generation of Leaders" [level=4] [ref=e261]'
+                      - paragraph [ref=e263]: Members of our leadership team at Bridgewater Interiors joined industry leaders at the 2026 Winning Futures Corks & Forks event for an evening centered on purpose, connection, and impact – expanding meaningful opportunities for the next generation.
+                      - link "Read More & See Photos 5" [ref=e265] [cursor=pointer]:
+                        - /url: https://bridgewater-interiors.com/an-evening-of-purpose-investing-in-the-next-generation-of-leaders/
+              - button "Previous slide" [ref=e266] [cursor=pointer]: "4"
+              - button "Next slide" [ref=e267] [cursor=pointer]: "5"
+              - generic [ref=e268]:
+                - button "Go to slide 1" [ref=e269] [cursor=pointer]
+                - button "Go to slide 2" [ref=e270] [cursor=pointer]
+                - button "Go to slide 3" [ref=e271] [cursor=pointer]
+                - button "Go to slide 4" [ref=e272] [cursor=pointer]
+                - button "Go to slide 5" [ref=e273] [cursor=pointer]
+                - button "Go to slide 6" [ref=e274] [cursor=pointer]
+                - button "Go to slide 7" [ref=e275] [cursor=pointer]
+                - button "Go to slide 8" [ref=e276] [cursor=pointer]
+                - button "Go to slide 9" [ref=e277] [cursor=pointer]
+                - button "Go to slide 10" [ref=e278] [cursor=pointer]
+            - text: 5 5 5 5 5 5 5 5 5 5 5 5 4 5
+          - generic [ref=e280]:
+            - generic [ref=e283]:
+              - figure [ref=e284]
+              - generic [ref=e286]:
+                - heading "Taking Care of Our Community" [level=4] [ref=e287]
+                - generic [ref=e288]: Supporting those where we reside.
+                - link "Our Impact " [ref=e290] [cursor=pointer]:
+                  - /url: /taking-care-of-community/
+            - generic [ref=e293]:
+              - figure [ref=e294]
+              - generic [ref=e296]:
+                - heading "Who We Are" [level=4] [ref=e297]
+                - generic [ref=e298]: Manufacturing excellence for over 20 years.
+                - link "About Us " [ref=e300] [cursor=pointer]:
+                  - /url: /about
+          - img "BWI-Team-scaled" [ref=e309]
+      - contentinfo [ref=e313]:
+        - generic [ref=e314]:
+          - generic [ref=e320]:
+            - navigation [ref=e322]:
+              - list [ref=e323]:
+                - listitem [ref=e324]:
+                  - link "Home" [ref=e325] [cursor=pointer]:
+                    - /url: https://bridgewater-interiors.com/
+                - listitem [ref=e326]:
+                  - link "About" [ref=e327] [cursor=pointer]:
+                    - /url: https://bridgewater-interiors.com/about/
+                - listitem [ref=e328]:
+                  - link "Careers" [ref=e329] [cursor=pointer]:
+                    - /url: https://adient.wd3.myworkdayjobs.com/External/1/refreshFacet/318c8bb6f553100021d223d9780d30be
+                - listitem [ref=e330]:
+                  - link "Job Opportunities" [ref=e331] [cursor=pointer]:
+                    - /url: https://bridgewater-interiors.com/hiring/
+                - listitem [ref=e332]:
+                  - link "Community And Impact" [ref=e333] [cursor=pointer]:
+                    - /url: https://bridgewater-interiors.com/taking-care-of-community/
+                - listitem [ref=e334]:
+                  - link "Meet The Team" [ref=e335] [cursor=pointer]:
+                    - /url: https://bridgewater-interiors.com/our-team/
+                - listitem [ref=e336]:
+                  - link "Awards & Recognitions" [ref=e337] [cursor=pointer]:
+                    - /url: https://bridgewater-interiors.com/awards-recognition/
+                - listitem [ref=e338]:
+                  - link "News" [ref=e339] [cursor=pointer]:
+                    - /url: https://bridgewater-interiors.com/news/
+                - listitem [ref=e340]:
+                  - link "Resources" [ref=e341] [cursor=pointer]:
+                    - /url: https://bridgewater-interiors.com/category/resources/
+                - listitem [ref=e342]:
+                  - link "Locations and Contact" [ref=e343] [cursor=pointer]:
+                    - /url: https://bridgewater-interiors.com/contact/
+            - text: a
+          - generic [ref=e344]:
+            - generic [ref=e345]:
+              - paragraph [ref=e349]: FOLLOW US TO STAY CONNECTED WITH BWI
+              - list [ref=e351]:
+                - listitem [ref=e352]:
+                  - link "" [ref=e353] [cursor=pointer]:
+                    - /url: https://www.facebook.com/BridgewaterInteriors98/
+                - listitem [ref=e354]:
+                  - link "" [ref=e355] [cursor=pointer]:
+                    - /url: https://www.instagram.com/bridgewaterint/
+                - listitem [ref=e356]:
+                  - link "" [ref=e357] [cursor=pointer]:
+                    - /url: https://x.com/BridgewaterInt
+                - listitem [ref=e358]:
+                  - link "" [ref=e359] [cursor=pointer]:
+                    - /url: https://www.youtube.com/channel/UCNX50eurEp_kWqxMgI-jNzw?view_as=subscriber
+                - listitem [ref=e360]:
+                  - link "" [ref=e361] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/company/bridgewater-interiors-l.l.c.
+                - listitem [ref=e362]:
+                  - link "" [ref=e363] [cursor=pointer]:
+                    - /url: https://www.threads.net/@bridgewaterint
+            - generic [ref=e364]:
+              - link "logo-blue" [ref=e367] [cursor=pointer]:
+                - /url: https://bridgewater-interiors.com/
+                - img "logo-blue" [ref=e369]
+              - paragraph [ref=e373]:
+                - text: © 2025 Bridgewater Interiors LLC.
+                - text: All rights reserved.
+                - link "Privacy Policy" [ref=e374] [cursor=pointer]:
+                  - /url: "#"
+                - text: Website Developed by
+                - link "RIZZARR" [ref=e375] [cursor=pointer]:
+                  - /url: https://rizzarr.com/
+  - text: "2"
