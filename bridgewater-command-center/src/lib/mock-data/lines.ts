@@ -1,0 +1,58 @@
+import type { Line } from "@/lib/types";
+
+export const lines: Line[] = [
+  {
+    id: "det-seat-line-a",
+    plantId: "detroit-hq",
+    name: "Seat Line A",
+    productFamily: "seating",
+    status: "watch",
+    taktTimeSeconds: 52,
+    throughputUnitsPerHour: 68,
+  },
+  {
+    id: "war-seat-line-a",
+    plantId: "warren-mi",
+    name: "Seat Line A",
+    productFamily: "seating",
+    status: "critical",
+    taktTimeSeconds: 48,
+    throughputUnitsPerHour: 74,
+  },
+  {
+    id: "war-seat-line-b",
+    plantId: "warren-mi",
+    name: "Seat Line B",
+    productFamily: "seating",
+    status: "healthy",
+    taktTimeSeconds: 49,
+    throughputUnitsPerHour: 72,
+  },
+  {
+    id: "eas-seat-line-a",
+    plantId: "eastaboga-al",
+    name: "Seat Line A",
+    productFamily: "seating",
+    status: "warning",
+    taktTimeSeconds: 54,
+    throughputUnitsPerHour: 63,
+  },
+  {
+    id: "lan-seat-line-a",
+    plantId: "lansing-mi",
+    name: "Seat Line A",
+    productFamily: "seating",
+    status: "warning",
+    taktTimeSeconds: 56,
+    throughputUnitsPerHour: 61,
+  },
+  {
+    id: "lan-console-line-b",
+    plantId: "lansing-mi",
+    name: "Console Line B",
+    productFamily: "center-console",
+    status: "watch",
+    taktTimeSeconds: 61,
+    throughputUnitsPerHour: 52,
+  },
+];
