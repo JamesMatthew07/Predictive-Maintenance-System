@@ -155,7 +155,9 @@ body::before {
 }
 
 .page-shell {
-  width: min(100%, 1520px);
+  width: 100%;
+  max-width: 1520px;
+  margin-inline: auto;
 }
 
 .scrollbar-hidden {

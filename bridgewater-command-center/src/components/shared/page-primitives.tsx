@@ -71,8 +71,8 @@ export function PageIntro({
   aside?: React.ReactNode;
 }) {
   return (
-    <section className="fade-in-up grid gap-5 border-b border-border/60 pb-6 lg:grid-cols-[1.5fr_0.9fr] lg:items-end">
-      <div className="space-y-3">
+    <section className="fade-in-up grid w-full min-w-0 gap-5 border-b border-border/60 pb-6 lg:grid-cols-[minmax(0,1.5fr)_minmax(280px,0.9fr)] lg:items-end">
+      <div className="min-w-0 space-y-3">
         <p className="text-[11px] font-semibold tracking-[0.32em] text-[color:var(--brand-sky)] uppercase">
           {eyebrow}
         </p>
@@ -85,7 +85,7 @@ export function PageIntro({
           </p>
         </div>
       </div>
-      {aside ? <div className="lg:justify-self-end">{aside}</div> : null}
+      {aside ? <div className="min-w-0 lg:w-full lg:justify-self-end">{aside}</div> : null}
     </section>
   );
 }
@@ -105,7 +105,7 @@ export function MetricRow({
   return (
     <section
       className={cn(
-        "grid gap-px overflow-hidden rounded-[1.35rem] border border-border/60 bg-border/70 shadow-[0_24px_80px_-56px_rgba(18,40,76,0.28)] md:grid-cols-2 xl:grid-cols-4",
+        "grid w-full min-w-0 gap-px overflow-hidden rounded-[1.35rem] border border-border/60 bg-border/70 shadow-[0_24px_80px_-56px_rgba(18,40,76,0.28)] md:grid-cols-2 xl:grid-cols-4",
         className,
       )}
     >
@@ -113,7 +113,7 @@ export function MetricRow({
         <div
           key={item.label}
           className={cn(
-            "group bg-white/90 px-5 py-4 backdrop-blur transition-colors hover:bg-white",
+            "group min-w-0 bg-white/90 px-5 py-4 backdrop-blur transition-colors hover:bg-white",
             item.accent === "sky" &&
               "bg-[linear-gradient(180deg,rgba(111,177,200,0.16),rgba(255,255,255,0.98))]",
           )}
@@ -121,7 +121,7 @@ export function MetricRow({
           <p className="text-[11px] font-semibold tracking-[0.22em] text-muted-foreground uppercase">
             {item.label}
           </p>
-          <div className="mt-4 flex items-end justify-between gap-4">
+          <div className="mt-4 flex min-w-0 items-end justify-between gap-4">
             <p className="font-mono text-[2rem] leading-none tracking-[-0.05em] text-[color:var(--brand-ink)]">
               {item.value}
             </p>
@@ -151,7 +151,7 @@ export function SectionBlock({
   return (
     <section
       className={cn(
-        "surface-panel fade-in-up space-y-5 rounded-[1.4rem] border border-border/60 px-5 py-5 shadow-[0_22px_90px_-64px_rgba(18,40,76,0.34)] md:px-6",
+        "surface-panel fade-in-up w-full min-w-0 space-y-5 rounded-[1.4rem] border border-border/60 px-5 py-5 shadow-[0_22px_90px_-64px_rgba(18,40,76,0.34)] md:px-6",
         className,
       )}
     >
@@ -185,11 +185,11 @@ export function DetailList({
       {items.map((item, index) => (
         <div key={item.label}>
           {index > 0 ? <Separator className="mb-3" /> : null}
-          <div className="flex items-start justify-between gap-6">
+          <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between sm:gap-6">
             <dt className="text-xs font-semibold tracking-[0.18em] text-muted-foreground uppercase">
               {item.label}
             </dt>
-            <dd className="max-w-[70%] text-right text-sm leading-6 text-[color:var(--brand-ink)]">
+            <dd className="min-w-0 text-left text-sm leading-6 text-[color:var(--brand-ink)] sm:max-w-[70%] sm:text-right">
               {item.value}
             </dd>
           </div>
@@ -302,13 +302,13 @@ export function QuickLink({
   return (
     <Link
       href={href}
-      className="group flex items-center justify-between gap-4 rounded-[1.15rem] border border-border/70 bg-white/70 px-4 py-3 transition-all hover:-translate-y-0.5 hover:border-[color:rgba(18,40,76,0.16)] hover:bg-white"
+      className="group flex min-w-0 items-center justify-between gap-4 rounded-[1.15rem] border border-border/70 bg-white/70 px-4 py-3 transition-all hover:-translate-y-0.5 hover:border-[color:rgba(18,40,76,0.16)] hover:bg-white"
     >
-      <div>
+      <div className="min-w-0">
         <p className="text-sm font-medium text-[color:var(--brand-ink)]">{label}</p>
         <p className="text-sm text-muted-foreground">{description}</p>
       </div>
-      <ArrowRight className="h-4 w-4 text-muted-foreground transition-transform group-hover:translate-x-0.5" />
+      <ArrowRight className="h-4 w-4 shrink-0 text-muted-foreground transition-transform group-hover:translate-x-0.5" />
     </Link>
   );
 }

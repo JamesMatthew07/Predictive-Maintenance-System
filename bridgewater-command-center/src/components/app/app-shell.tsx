@@ -14,6 +14,7 @@ import {
   LogOut,
   MapPin,
   Menu,
+  MessageCircle,
   RefreshCw,
   ShieldCheck,
 } from "lucide-react";
@@ -31,7 +32,7 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { ScrollArea } from "@/components/ui/scroll-area";
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { Sheet, SheetContent, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
 import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip";
 import { assets } from "@/lib/mock-data";
 import { NOW_ISO } from "@/lib/engine/demo-engine";
@@ -44,6 +45,7 @@ const navigation = [
   { href: "/operations", label: "Operations", icon: Gauge },
   { href: "/maintenance", label: "Maintenance", icon: ShieldCheck },
   { href: "/technician", label: "Technician", icon: HardHat },
+  { href: "/chat", label: "AI Chat", icon: MessageCircle },
 ] as const;
 type DemoScenario = ReturnType<typeof useDemo>["scenarios"][number];
 type DemoPlants = ReturnType<typeof useDemo>["plants"];
@@ -91,6 +93,7 @@ function MobileNavigation() {
         </Button>
       </SheetTrigger>
       <SheetContent side="left" className="w-[320px] border-none bg-[color:var(--brand-navy)] p-0 text-white">
+        <SheetTitle className="sr-only">Mobile navigation</SheetTitle>
         <div className="flex h-full flex-col">
           <div className="border-b border-white/10 px-5 py-5">
             <Image
@@ -158,11 +161,11 @@ function TopBar() {
 
   return (
     <header className="sticky top-0 z-30 border-b border-border/60 bg-[color:rgba(247,249,249,0.94)] backdrop-blur-xl">
-      <div className="flex flex-col gap-3 px-4 py-3 lg:px-8">
+      <div className="page-shell flex flex-col gap-3 px-4 py-3 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between gap-3">
-          <div className="flex items-center gap-3">
+          <div className="flex min-w-0 items-center gap-3">
             <MobileNavigation />
-            <div className="space-y-1">
+            <div className="min-w-0 space-y-1">
               <p className="text-[10px] font-semibold tracking-[0.24em] text-[color:var(--brand-sky)] uppercase">
                 Bridgewater Interiors
               </p>
@@ -202,7 +205,7 @@ function TopBar() {
             <DropdownMenuTrigger asChild>
               <Button
                 variant="outline"
-                className="h-11 w-full min-w-[280px] justify-between rounded-xl border-border/60 bg-white/82 px-3 shadow-none transition-colors hover:bg-white sm:w-[380px]"
+                className="h-11 w-full min-w-0 justify-between rounded-xl border-border/60 bg-white/82 px-3 shadow-none transition-colors hover:bg-white sm:w-[380px] sm:min-w-[280px]"
               >
                 <div className="min-w-0 text-left">
                   <p className="truncate text-sm font-medium text-[color:var(--brand-ink)]">
@@ -218,7 +221,7 @@ function TopBar() {
             <DropdownMenuContent
               align="start"
               sideOffset={8}
-              className="w-[360px] rounded-[1.2rem] border-border/70 bg-white/96 p-1.5 shadow-[0_18px_60px_-32px_rgba(18,40,76,0.28)]"
+              className="w-[calc(100vw-2rem)] rounded-[1.2rem] border-border/70 bg-white/96 p-1.5 shadow-[0_18px_60px_-32px_rgba(18,40,76,0.28)] sm:w-[360px]"
             >
               <DropdownMenuRadioGroup value={state.scenarioId} onValueChange={setScenarioId}>
                 {baselineScenario ? (
@@ -269,7 +272,7 @@ function TopBar() {
             <DropdownMenuTrigger asChild>
               <Button
                 variant="outline"
-                className="h-11 w-[150px] justify-between rounded-xl border-border/60 bg-white/82 px-3 shadow-none transition-colors hover:bg-white"
+                className="h-11 w-full justify-between rounded-xl border-border/60 bg-white/82 px-3 shadow-none transition-colors hover:bg-white min-[420px]:w-[150px]"
               >
                 <span className="flex min-w-0 items-center gap-2">
                   <MapPin className="h-4 w-4 shrink-0 text-[color:var(--brand-sky)]" />
@@ -331,6 +334,9 @@ function TopBar() {
 }
 
 export function AppShell({ children }: { children: React.ReactNode }) {
+  const pathname = usePathname();
+  const isChatPage = pathname === "/chat";
+
   return (
     <div className="min-h-screen bg-[color:var(--surface-0)] text-foreground lg:h-[100dvh] lg:overflow-hidden">
       <div className="grid min-h-screen lg:h-[100dvh] lg:grid-cols-[284px_1fr]">
@@ -365,8 +371,24 @@ export function AppShell({ children }: { children: React.ReactNode }) {
           </div>
         </aside>
         <div className="flex min-w-0 flex-col lg:h-[100dvh] lg:overflow-hidden">
-          <TopBar />
-          <main className="page-shell scrollbar-hidden flex-1 px-4 py-6 lg:min-h-0 lg:overflow-y-auto lg:px-8 lg:py-8">
+          {isChatPage ? (
+            <header className="sticky top-0 z-30 border-b border-border/60 bg-[color:rgba(247,249,249,0.94)] px-4 py-3 backdrop-blur-xl lg:hidden">
+              <div className="flex items-center gap-3">
+                <MobileNavigation />
+                <div className="min-w-0">
+                  <p className="text-[10px] font-semibold tracking-[0.24em] text-[color:var(--brand-sky)] uppercase">
+                    Bridgewater Interiors
+                  </p>
+                  <h2 className="truncate text-base font-medium text-[color:var(--brand-ink)]">
+                    AI Chat
+                  </h2>
+                </div>
+              </div>
+            </header>
+          ) : (
+            <TopBar />
+          )}
+          <main className="page-shell scrollbar-hidden flex-1 px-4 py-6 sm:px-6 lg:min-h-0 lg:overflow-y-auto lg:px-8 lg:py-8">
             {children}
           </main>
         </div>
